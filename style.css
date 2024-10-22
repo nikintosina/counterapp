@@ -1,0 +1,52 @@
+body {
+  background-image: url("https://cdn.sanity.io/images/7i1ps9pf/production/7f66b1eb2c7b5189f819d8cf927670d988f2c52b-1920x1469.jpg");
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 100vh; 
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+  max-width: 600px; /* Constrain the container to a max width */
+  margin: 20px auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+button {
+  border: none;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#increment-btn {
+  background: #4CAF50; /* Green color */
+}
+
+#save-btn {
+  background: #FF5722; /* Orange color */
+}
+
+#save-el {
+  font-size: 1.2em;
+  color: #4CAF50;
+  margin-top: 20px;
+}
